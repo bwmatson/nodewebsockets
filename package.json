@@ -1,0 +1,25 @@
+{
+  "name": "socket-io",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc && concurrently --raw --kill-others --success first \"node .\\dist\\server.js\" \"node .\\dist\\client.js\"",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^7.0.8",
+    "@types/socket.io": "^1.4.28",
+    "@types/socket.io-client": "^1.4.29",
+    "concurrently": "^3.4.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  }
+}

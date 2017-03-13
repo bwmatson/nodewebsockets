@@ -1,0 +1,18 @@
+{    
+    "compileOnSave": true,
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "baseUrl": ".", // This must be specified if "paths" is.
+        "outDir": "./dist",
+        "sourceMap": true,
+        "target": "es5"  
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
